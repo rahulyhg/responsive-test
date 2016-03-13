@@ -1,0 +1,70 @@
+@font-face {
+	font-family: 'Myriad Set Pro';
+	src: url("../fonts/myriad-set-pro_medium.woff");
+}
+body {
+	margin: 0px;
+}
+header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 60px;
+	width: 100%;
+	min-width: 1280px;
+	background-color: #000; 
+	background: rgba(0,0,0,0.8);
+	color: #fff;
+	color: rgba(255,255,255,0.8);
+	font-family: 'Myriad Set Pro';
+	font-size: 16px;
+	line-height: 60px;
+}
+#logo {
+	background-image: url('../images/logo.png');
+	margin: 0px 50px;
+	vertical-align: middle;
+	line-height: normal;
+	height: 40px;
+	width: 40px;
+	cursor: pointer;
+	display: inline-block;
+}
+label {
+	margin-right: 10px;
+}
+form {
+	vertical-align: middle;
+	line-height: normal;
+	display: inline-block;
+}
+input, select {
+	margin-right: 50px;
+	border-radius: 2px;
+	background-color: #fff;
+	border: none;
+	outline: none;
+	height: 20px;
+	font-family: 'Myriad Set Pro';
+	font-size: 14px;
+}
+input[type="submit"] {
+	cursor: pointer;
+}
+input[type="text"] {
+	padding-left: 4px;
+	width: 175px;
+}
+main {
+	margin-top: 60px;
+	background: url('../images/rulers.png');
+	height: 2612px;
+	width: 2612px;
+	cursor: crosshair;
+	display: block;
+}
+object {
+	background: #fff;
+	margin-top: 32px;
+	margin-left: 32px;
+}
